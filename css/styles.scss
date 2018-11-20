@@ -37,12 +37,37 @@
         position: relative;
 
         .drop1 {
-            width: 5px;
+            width: 4px;
+            height: 4px;
+            border-radius: 50%;
+            position: absolute;
+            background-color: rgb(18, 10, 8);
+            left: 972px;
+            top: 300px;
+            box-shadow: rgba(18, 10, 8, 1) 0px 0px 2px;
+        }
+
+        .drop2 {
+            width: 4px;
+            height: 4px;
+            border-radius: 50%;
+            position: absolute;
+            background-color: rgb(18, 10, 8);
+            left: 973px;
+            top: 299px;
+
+            box-shadow: rgba(18, 10, 8, 1) 0px 0px 2px;
+        }
+
+        .drop3 {
+            width: 4px;
             height: 5px;
             border-radius: 50%;
             position: absolute;
-            background-color: black;
-            left: 50%;
+            background-color: rgb(18, 10, 8);
+            left: 974px;
+            top: 297px;
+            box-shadow: rgba(18, 10, 8, 1) 0px 0px 2px;
         }
     }
 

@@ -753,12 +753,32 @@
     background-size: auto;
     position: relative; }
     #eyewrapper .eye-image .drop1 {
-      width: 5px;
+      width: 4px;
+      height: 4px;
+      border-radius: 50%;
+      position: absolute;
+      background-color: #120a08;
+      left: 972px;
+      top: 300px;
+      box-shadow: #120a08 0px 0px 2px; }
+    #eyewrapper .eye-image .drop2 {
+      width: 4px;
+      height: 4px;
+      border-radius: 50%;
+      position: absolute;
+      background-color: #120a08;
+      left: 973px;
+      top: 299px;
+      box-shadow: #120a08 0px 0px 2px; }
+    #eyewrapper .eye-image .drop3 {
+      width: 4px;
       height: 5px;
       border-radius: 50%;
       position: absolute;
-      background-color: black;
-      left: 50%; }
+      background-color: #120a08;
+      left: 974px;
+      top: 297px;
+      box-shadow: #120a08 0px 0px 2px; }
   #eyewrapper .pupil {
     color: #fff;
     position: absolute;
