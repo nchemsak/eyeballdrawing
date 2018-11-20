@@ -26,15 +26,27 @@
 
 #eyewrapper {
     height: 600px;
+    position: relative;
+
     .eye-image {
         background-image: url("/images/eyeball3.jpg");
         height: 1000px;
+        width: 1850px;
         background-repeat: no-repeat;
         background-size: auto;
         position: relative;
+
+        .drop1 {
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+            position: absolute;
+            background-color: black;
+            left: 50%;
+        }
     }
 
-     .pupil {
+    .pupil {
         color: #fff;
         position: absolute;
         font-size: 30px;
