@@ -1,0 +1,2 @@
+// EYE JS
+"use strict";
