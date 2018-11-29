@@ -746,6 +746,7 @@
   height: 600px;
   position: relative; }
   #eyewrapper .eye-image {
+    background-color: #000;
     background-image: url("/images/eyeball3.jpg");
     height: 1000px;
     width: 1850px;
@@ -780,62 +781,43 @@
       top: 297px;
       box-shadow: #120a08 0px 0px 2px; }
   #eyewrapper .pupil {
-    color: #fff;
+    color: #000;
+    width: 140px;
+    height: 170px;
     position: absolute;
-    font-size: 30px;
-    line-height: 36px; }
-    @media (min-width: 576px) {
-      #eyewrapper .pupil {
-        width: 140px;
-        height: 170px;
-        position: absolute;
-        margin: auto;
-        max-width: 100%;
-        max-height: 100%;
-        overflow: auto;
-        border-radius: 50%;
-        transform: rotateY(15deg);
-        -webkit-box-shadow: inset 0px 0px 99px 13px rgba(0, 0, 0, 0.75);
-        -moz-box-shadow: inset 0px 0px 99px 13px rgba(0, 0, 0, 0.75);
-        box-shadow: inset 0px 0px 99px 13px rgba(0, 0, 0, 0.75); } }
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto;
+    border-radius: 50%;
+    transform: rotateY(15deg);
+    -webkit-box-shadow: inset 0px 0px 99px 13px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 0px 0px 99px 13px rgba(0, 0, 0, 0.75);
+    top: 425px;
+    left: 963px; }
   #eyewrapper .pupil-reflection {
     background-color: #fff;
     width: 102px;
     height: 92px;
     position: absolute;
-    margin: auto;
-    max-width: 100%;
-    max-height: 100%;
-    overflow: auto;
     border-radius: 50%;
-    transform: skewY(16deg); }
+    transform: skewY(16deg);
+    top: 383px;
+    left: 990px; }
   #eyewrapper .iris {
-    width: 420px;
-    height: 420px;
+    width: 445px;
+    height: 431px;
     position: absolute;
     margin: auto;
     max-width: 100%;
     max-height: 100%;
     overflow: auto;
     border-radius: 50%;
-    -webkit-box-shadow: inset 0px 0px 99px 13px rgba(170, 112, 75, 0.75);
-    -moz-box-shadow: inset 0px 0px 99px 13px rgba(170, 112, 75, 0.75);
-    box-shadow: inset 0px 0px 99px 13px rgba(170, 112, 75, 0.75);
     -webkit-box-shadow: inset 0px 0px 99px 13px rgba(111, 67, 70, 0.7);
-    -moz-box-shadow: inset 0px 0px 99px 13px rgba(111, 67, 70, 0.7);
-    box-shadow: inset 0px 0px 99px 13px rgba(111, 67, 70, 0.75); }
-  #eyewrapper .inner-iris {
-    width: 380px;
-    height: 380px;
-    position: absolute;
-    margin: auto;
-    max-width: 100%;
-    max-height: 100%;
-    overflow: auto;
-    border-radius: 50%;
-    -webkit-box-shadow: inset 0px 0px 99px 13px rgba(170, 112, 75, 0.75);
-    -moz-box-shadow: inset 0px 0px 99px 13px rgba(170, 112, 75, 0.75);
-    box-shadow: inset 0px 0px 99px 13px rgba(170, 112, 75, 0.75); }
+    box-shadow: inset 0px 0px 99px 13px rgba(72, 43, 45, 0.75);
+    top: 316px;
+    left: 803px;
+    background: transparent radial-gradient(ellipse closest-corner at 53% 46%, rgba(130, 63, 37, 0.8) 25%, rgba(255, 255, 255, 0.7) 68%, rgba(255, 255, 255, 0.9) 90%); }
   #eyewrapper .eyeball {
     width: 380px;
     height: 380px;
@@ -846,17 +828,16 @@
     overflow: auto;
     transform: rotate(-55deg); }
   #eyewrapper .eyewhite {
-    width: 811px;
-    height: 462px;
-    background-color: rgba(255, 255, 255, 0.5);
     position: absolute;
-    border-radius: 113% 3% 92% 38%/102% 8% 121% 24%;
-    transform: rotate(-160deg);
-    width: 883px;
-    height: 477px;
-    background-color: rgba(255, 255, 255, 0.5);
+    width: 910px;
+    height: 497px;
     border-radius: 121% 3% 92% 38%/102% 8% 121% 24%;
-    transform: rotate(-160deg); }
+    transform: rotate(-160deg);
+    left: 500px;
+    top: 301px;
+    background: white;
+    background: transparent -webkit-radial-gradient(119% 16%, ellipse cover, rgba(132, 103, 99, 0.8) 25%, rgba(255, 255, 255, 0.7) 72%, rgba(255, 255, 255, 0.6) 90%);
+    background: transparent radial-gradient(ellipse farthest-corner at 119% 16%, rgba(132, 103, 99, 0.8) 25%, rgba(255, 255, 255, 0.7) 72%, rgba(255, 255, 255, 0.6) 90%); }
   #eyewrapper .skin1 {
     background-color: rgba(212, 172, 160, 0.5);
     width: 2000px;
@@ -885,7 +866,6 @@
   width: 100%;
   height: 50%;
   border-radius: 100%;
-  background: transparent -moz-radial-gradient(50% 50%, ellipse farthest-corner, rgba(0, 0, 0, 0) 0%, rgba(0, 105, 149, 0.4) 37%, rgba(80, 80, 80, 0.1) 47%, rgba(80, 80, 80, 0) 58%);
   background: transparent -webkit-radial-gradient(50% 50%, ellipse farthest-corner, rgba(0, 0, 0, 0) 0%, rgba(0, 105, 149, 0.4) 37%, rgba(80, 80, 80, 0.1) 47%, rgba(80, 80, 80, 0) 58%);
   background: transparent radial-gradient(ellipse, rgba(0, 0, 0, 0) 0%, rgba(0, 105, 149, 0.4) 37%, rgba(80, 80, 80, 0.1) 47%, rgba(80, 80, 80, 0) 58%); }
 
@@ -897,7 +877,6 @@
   height: 100%;
   border-radius: 100%;
   border-top-left-radius: 0;
-  background: transparent -moz-radial-gradient(20% 20%, #fff 22%, rgba(255, 255, 255, 0.2) 30%, rgba(74, 193, 186, 0.5) 45%, rgba(0, 168, 243, 0.7) 65%, #fff 100%);
   background: transparent -webkit-radial-gradient(20% 20%, #fff 22%, rgba(255, 255, 255, 0.2) 30%, rgba(74, 193, 186, 0.5) 45%, rgba(0, 168, 243, 0.7) 65%, #fff 100%);
   background: transparent radial-gradient(at 20% 20%, #fff 22%, rgba(255, 255, 255, 0.2) 30%, rgba(74, 193, 186, 0.5) 45%, rgba(0, 168, 243, 0.7) 65%, #fff 100%); }
 
@@ -909,7 +888,6 @@
   height: 94%;
   border-radius: 100%;
   border-top-left-radius: 0;
-  background: transparent -moz-radial-gradient(30% 55%, circle cover, rgba(0, 105, 149, 0) 70%, rgba(0, 105, 149, 0.8) 80%);
   background: transparent -webkit-radial-gradient(30% 55%, circle cover, rgba(0, 105, 149, 0) 70%, rgba(0, 105, 149, 0.8) 80%);
   background: transparent radial-gradient(circle farthest-corner at 30% 55%, rgba(0, 105, 149, 0) 70%, rgba(0, 105, 149, 0.8) 80%); }
 
@@ -921,7 +899,6 @@
   height: 94%;
   border-radius: 100%;
   border-top-left-radius: 0;
-  background: transparent -moz-radial-gradient(50% 10%, ellipse cover, rgba(0, 105, 149, 0) 73%, rgba(0, 105, 149, 0.3) 80%);
   background: transparent -webkit-radial-gradient(50% 10%, ellipse cover, rgba(0, 105, 149, 0) 73%, rgba(0, 105, 149, 0.3) 80%);
   background: transparent radial-gradient(ellipse farthest-corner at 50% 10%, rgba(0, 105, 149, 0) 73%, rgba(0, 105, 149, 0.3) 80%); }
 
@@ -943,7 +920,6 @@
   height: 100%;
   border-radius: 100%;
   border-top-left-radius: 0;
-  background: transparent -moz-radial-gradient(30% 30%, ellipse cover, rgba(0, 105, 149, 0) 50%, rgba(255, 255, 255, 0.9) 72%, rgba(255, 255, 255, 0.6) 90%);
   background: transparent -webkit-radial-gradient(30% 30%, ellipse cover, rgba(0, 105, 149, 0) 50%, rgba(255, 255, 255, 0.9) 72%, rgba(255, 255, 255, 0.6) 90%);
   background: transparent radial-gradient(ellipse farthest-corner at 30% 30%, rgba(0, 105, 149, 0) 50%, rgba(255, 255, 255, 0.9) 72%, rgba(255, 255, 255, 0.6) 90%); }
 
@@ -954,7 +930,6 @@
   width: 80%;
   height: 60%;
   transform: matrix(1, -0.5, 0, 1, 0, 0);
-  background: transparent -moz-radial-gradient(73% 73%, ellipse farthest-corner, rgba(145, 240, 234, 0.8) 6%, rgba(145, 240, 234, 0.1) 25%, rgba(145, 240, 234, 0) 30%);
   background: transparent -webkit-radial-gradient(73% 73%, ellipse farthest-corner, rgba(145, 240, 234, 0.8) 6%, rgba(145, 240, 234, 0.1) 25%, rgba(145, 240, 234, 0) 30%);
   background: transparent radial-gradient(ellipse farthest-corner at 73% 73%, rgba(145, 240, 234, 0.8) 6%, rgba(145, 240, 234, 0.1) 25%, rgba(145, 240, 234, 0) 30%); }
 
@@ -965,7 +940,6 @@
   width: 75%;
   height: 55%;
   transform: matrix(1, -0.5, 0, 1, 0, 0);
-  background: transparent -moz-radial-gradient(73% 73%, ellipse farthest-corner, #fff 6%, rgba(255, 255, 255, 0.1) 25%, rgba(255, 255, 255, 0) 30%);
   background: transparent -webkit-radial-gradient(73% 73%, ellipse farthest-corner, #fff 6%, rgba(255, 255, 255, 0.1) 25%, rgba(255, 255, 255, 0) 30%);
   background: transparent radial-gradient(ellipse farthest-corner at 73% 73%, #fff 6%, rgba(255, 255, 255, 0.1) 25%, rgba(255, 255, 255, 0) 30%); }
 
