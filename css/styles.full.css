@@ -961,11 +961,413 @@
   border-radius: 50%;
   z-index: 5000;
   float: left;
-  background-color: rgba(0, 0, 0, 0.5); }
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0.8; }
   .all-dots:hover {
     background-color: black; }
 
 #target {
   width: 925px; }
+
+#dot-1 {
+  background-color: #865044; }
+#dot-2 {
+  background-color: #865044; }
+#dot-3 {
+  background-color: #865044; }
+#dot-4 {
+  background-color: #865044; }
+#dot-5 {
+  background-color: #865044; }
+#dot-6 {
+  background-color: #865044; }
+#dot-7 {
+  background-color: #865044; }
+#dot-8 {
+  background-color: #865044; }
+#dot-9 {
+  background-color: #865044; }
+#dot-10 {
+  background-color: #865044; }
+#dot-11 {
+  background-color: #865044; }
+#dot-12 {
+  background-color: #865044; }
+#dot-13 {
+  background-color: #865044; }
+#dot-14 {
+  background-color: #865044; }
+#dot-15 {
+  background-color: #865044; }
+#dot-16 {
+  background-color: #865044; }
+#dot-17 {
+  background-color: #865044; }
+#dot-18 {
+  background-color: #865044; }
+#dot-19 {
+  background-color: #865044; }
+#dot-20 {
+  background-color: #865044; }
+#dot-21 {
+  background-color: #865044; }
+#dot-22 {
+  background-color: #865044; }
+#dot-23 {
+  background-color: #865044; }
+#dot-24 {
+  background-color: #865044; }
+#dot-25 {
+  background-color: #865044; }
+#dot-26 {
+  background-color: #865044; }
+#dot-27 {
+  background-color: #865044; }
+#dot-28 {
+  background-color: #865044; }
+#dot-29 {
+  background-color: #865044; }
+#dot-30 {
+  background-color: #865044; }
+#dot-31 {
+  background-color: #865044; }
+#dot-32 {
+  background-color: #865044; }
+#dot-33 {
+  background-color: #865044; }
+#dot-34 {
+  background-color: #865044; }
+#dot-35 {
+  background-color: #865044; }
+#dot-36 {
+  background-color: #865044; }
+#dot-37 {
+  background-color: #865044; }
+#dot-38 {
+  background-color: #865044; }
+#dot-39 {
+  background-color: #865044; }
+#dot-40 {
+  background-color: #865044; }
+#dot-41 {
+  background-color: #865044; }
+#dot-42 {
+  background-color: #865044; }
+#dot-43 {
+  background-color: #865044; }
+#dot-44 {
+  background-color: #865044; }
+#dot-45 {
+  background-color: #865044; }
+#dot-46 {
+  background-color: #865044; }
+#dot-47 {
+  background-color: #865044; }
+#dot-48 {
+  background-color: #865044; }
+#dot-49 {
+  background-color: #865044; }
+#dot-50 {
+  background-color: #865044; }
+#dot-51 {
+  background-color: #865044; }
+#dot-52 {
+  background-color: #865044; }
+#dot-53 {
+  background-color: #865044; }
+#dot-54 {
+  background-color: #865044; }
+#dot-55 {
+  background-color: #865044; }
+#dot-56 {
+  background-color: #865044; }
+#dot-57 {
+  background-color: #865044; }
+#dot-58 {
+  background-color: #865044; }
+#dot-59 {
+  background-color: #865044; }
+#dot-60 {
+  background-color: #865044; }
+#dot-61 {
+  background-color: #865044; }
+#dot-62 {
+  background-color: #865044; }
+#dot-63 {
+  background-color: #865044; }
+#dot-64 {
+  background-color: #865044; }
+#dot-65 {
+  background-color: #865044; }
+#dot-66 {
+  background-color: #865044; }
+#dot-67 {
+  background-color: #865044; }
+#dot-68 {
+  background-color: #865044; }
+#dot-69 {
+  background-color: #865044; }
+#dot-70 {
+  background-color: #865044; }
+#dot-71 {
+  background-color: #865044; }
+#dot-72 {
+  background-color: #865044; }
+#dot-73 {
+  background-color: #865044; }
+#dot-74 {
+  background-color: #865044; }
+#dot-75 {
+  background-color: #865044; }
+#dot-76 {
+  background-color: #865044; }
+#dot-77 {
+  background-color: #865044; }
+#dot-78 {
+  background-color: #865044; }
+#dot-79 {
+  background-color: #865044; }
+#dot-80 {
+  background-color: #865044; }
+#dot-81 {
+  background-color: #865044; }
+#dot-82 {
+  background-color: #865044; }
+#dot-83 {
+  background-color: #865044; }
+#dot-84 {
+  background-color: #865044; }
+#dot-85 {
+  background-color: #865044; }
+#dot-86 {
+  background-color: #865044; }
+#dot-87 {
+  background-color: #865044; }
+#dot-88 {
+  background-color: #865044; }
+#dot-89 {
+  background-color: #865044; }
+#dot-90 {
+  background-color: #865044; }
+#dot-91 {
+  background-color: #865044; }
+#dot-92 {
+  background-color: #865044; }
+#dot-93 {
+  background-color: #865044; }
+#dot-94 {
+  background-color: #865044; }
+#dot-95 {
+  background-color: #865044; }
+#dot-96 {
+  background-color: #865044; }
+#dot-97 {
+  background-color: #865044; }
+#dot-98 {
+  background-color: #865044; }
+#dot-99 {
+  background-color: #865044; }
+#dot-100 {
+  background-color: #865044; }
+#dot-101 {
+  background-color: #865044; }
+#dot-102 {
+  background-color: #865044; }
+#dot-103 {
+  background-color: #865044; }
+#dot-104 {
+  background-color: #865044; }
+#dot-105 {
+  background-color: #865044; }
+#dot-106 {
+  background-color: #865044; }
+#dot-107 {
+  background-color: #865044; }
+#dot-108 {
+  background-color: #865044; }
+#dot-109 {
+  background-color: #865044; }
+#dot-110 {
+  background-color: #865044; }
+#dot-111 {
+  background-color: #865044; }
+#dot-112 {
+  background-color: #865044; }
+#dot-113 {
+  background-color: #865044; }
+#dot-114 {
+  background-color: #865044; }
+#dot-115 {
+  background-color: #865044; }
+#dot-116 {
+  background-color: #865044; }
+#dot-117 {
+  background-color: #865044; }
+#dot-118 {
+  background-color: #865044; }
+#dot-119 {
+  background-color: #865044; }
+#dot-120 {
+  background-color: #865044; }
+#dot-121 {
+  background-color: #865044; }
+#dot-122 {
+  background-color: #865044; }
+#dot-123 {
+  background-color: #865044; }
+#dot-124 {
+  background-color: #865044; }
+#dot-125 {
+  background-color: #865044; }
+#dot-126 {
+  background-color: #865044; }
+#dot-127 {
+  background-color: #865044; }
+#dot-128 {
+  background-color: #865044; }
+#dot-129 {
+  background-color: #865044; }
+#dot-130 {
+  background-color: #865044; }
+#dot-131 {
+  background-color: #865044; }
+#dot-132 {
+  background-color: #865044; }
+#dot-133 {
+  background-color: #865044; }
+#dot-134 {
+  background-color: #865044; }
+#dot-135 {
+  background-color: #865044; }
+#dot-136 {
+  background-color: #865044; }
+#dot-137 {
+  background-color: #865044; }
+#dot-138 {
+  background-color: #865044; }
+#dot-139 {
+  background-color: #865044; }
+#dot-140 {
+  background-color: #865044; }
+#dot-141 {
+  background-color: #865044; }
+#dot-142 {
+  background-color: #865044; }
+#dot-143 {
+  background-color: #865044; }
+#dot-144 {
+  background-color: #865044; }
+#dot-145 {
+  background-color: #865044; }
+#dot-146 {
+  background-color: #865044; }
+#dot-147 {
+  background-color: #865044; }
+#dot-148 {
+  background-color: #865044; }
+#dot-149 {
+  background-color: #865044; }
+#dot-150 {
+  background-color: #865044; }
+#dot-151 {
+  background-color: #865044; }
+#dot-152 {
+  background-color: #865044; }
+#dot-153 {
+  background-color: #865044; }
+#dot-154 {
+  background-color: #865044; }
+#dot-155 {
+  background-color: #865044; }
+#dot-156 {
+  background-color: #865044; }
+#dot-157 {
+  background-color: #865044; }
+#dot-158 {
+  background-color: #865044; }
+#dot-159 {
+  background-color: #865044; }
+#dot-160 {
+  background-color: #865044; }
+#dot-161 {
+  background-color: #865044; }
+#dot-162 {
+  background-color: #865044; }
+#dot-163 {
+  background-color: #865044; }
+#dot-164 {
+  background-color: #865044; }
+#dot-165 {
+  background-color: #865044; }
+#dot-166 {
+  background-color: #865044; }
+#dot-167 {
+  background-color: #865044; }
+#dot-168 {
+  background-color: #865044; }
+#dot-169 {
+  background-color: #865044; }
+#dot-170 {
+  background-color: #865044; }
+#dot-171 {
+  background-color: #865044; }
+#dot-172 {
+  background-color: #865044; }
+#dot-173 {
+  background-color: #865044; }
+#dot-174 {
+  background-color: #865044; }
+#dot-175 {
+  background-color: #865044; }
+#dot-176 {
+  background-color: #865044; }
+#dot-177 {
+  background-color: #865044; }
+#dot-178 {
+  background-color: #865044; }
+#dot-179 {
+  background-color: #865044; }
+#dot-180 {
+  background-color: #865044; }
+#dot-181 {
+  background-color: #865044; }
+#dot-182 {
+  background-color: #865044; }
+#dot-183 {
+  background-color: #865044; }
+#dot-184 {
+  background-color: #865044; }
+#dot-185 {
+  background-color: #865044;
+  background-color: purple; }
+#dot-186 {
+  background-color: #865044; }
+#dot-187 {
+  background-color: #865044; }
+#dot-188 {
+  background-color: #865044; }
+#dot-189 {
+  background-color: #865044; }
+#dot-190 {
+  background-color: #865044; }
+#dot-191 {
+  background-color: #865044; }
+#dot-192 {
+  background-color: #865044; }
+#dot-193 {
+  background-color: #865044; }
+#dot-194 {
+  background-color: #865044; }
+#dot-195 {
+  background-color: #865044; }
+#dot-196 {
+  background-color: #865044; }
+#dot-197 {
+  background-color: #865044; }
+#dot-198 {
+  background-color: #865044; }
+#dot-199 {
+  background-color: #865044;
+  background-color: blue; }
 
 /*# sourceMappingURL=styles.full.css.map */
