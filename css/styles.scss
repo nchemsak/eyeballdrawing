@@ -25,14 +25,16 @@
 
 
 #eyewrapper {
-    height: 600px;
+    // height: 600px;
     position: relative;
 
     .eye-image {
         background-color: #000;
-        background-image: url("/images/eyeball3.jpg");
-        height: 1000px;
-        width: 1850px;
+        background-image: url("/images/eyeball4.jpg");
+        // height: 1000px;
+        height: 500px;
+        // width: 1850px;
+        width: 925px;
         background-repeat: no-repeat;
         background-size: auto;
         position: relative;
@@ -74,8 +76,10 @@
 
     .pupil {
         color: #000;
-        width: 140px;
-        height: 170px;
+        // width: 140px;
+        width: 70px;
+        // height: 170px;
+        height: 85px;
         position: absolute;
         margin: auto;
         max-width: 100%;
@@ -85,25 +89,33 @@
         transform: rotateY(15deg);
         -webkit-box-shadow: inset 0px 0px 99px 13px rgba(0, 0, 0, 0.75);
         box-shadow: inset 0px 0px 99px 13px rgba(0, 0, 0, 0.75);
-        top: 425px;
-        left: 963px;
+        // top: 425px;
+        top: 213px;
+        // left: 963px;
+        left: 482px;
 
     }
 
     .pupil-reflection {
         background-color: #fff;
-        width: 102px;
-        height: 92px;
+        // width: 102px;
+        width: 51px;
+        // height: 92px;
+        height: 46px;
         position: absolute;
         border-radius: 50%;
         transform: skewY(16deg);
-        top: 383px;
-        left: 990px;
+        // top: 383px;
+        top: 191px;
+        // left: 990px;
+        left: 495px;
     }
 
     .iris {
-        width: 445px;
-        height: 431px;
+        // width: 445px;
+        width: 223px;
+        // height: 431px;
+        height: 215px;
         position: absolute;
         margin: auto;
         max-width: 100%;
@@ -113,10 +125,12 @@
         -webkit-box-shadow: inset 0px 0px 99px 13px rgba(111, 67, 70, 0.70);
         box-shadow: inset 0px 0px 99px 13px rgba(72, 43, 45, 0.75);
         // top: 316px;
-        top: 73px;
+        // top: 73px;
+        top: 36px;
         // left: 803px;
-        left: 176px;
-        background: transparent radial-gradient(ellipse closest-corner at 53% 46%, rgba(130, 63, 37, .8) 25%, rgba(255, 255, 255, 0.7) 68%, rgba(255, 255, 255, .9) 90%);
+        // left: 176px;
+        left: 88px;
+        background: transparent radial-gradient(ellipse closest-corner at 48% 53%, rgba(130, 63, 37, .8) 25%, rgba(255, 255, 255, 0.7) 68%, rgba(255, 255, 255, .9) 90%);
     }
 
     // .inner-iris {
@@ -149,12 +163,16 @@
     .eyewhite {
         position: absolute;
         overflow: hidden;
-        width: 910px;
-        height: 497px;
+        // width: 910px;
+        width: 455px;
+        // height: 497px;
+        height: 248px;
         border-radius: 121% 3% 92% 38%/102% 8% 121% 24%;
         transform: rotate(-160deg);
-        left: 500px;
-        top: 301px;
+        // left: 500px;
+        left: 250px;
+        // top: 301px;
+        top: 150px;
         background: white;
         background: transparent -webkit-radial-gradient(119% 16%, ellipse cover, rgba(132, 103, 99, 0.8) 25%, rgba(255, 255, 255, 0.7) 72%, rgba(255, 255, 255, 0.6) 90%);
         background: transparent radial-gradient(ellipse farthest-corner at 119% 16%, rgba(132, 103, 99, 0.8) 25%, rgba(255, 255, 255, 0.7) 72%, rgba(255, 255, 255, 0.6) 90%);
@@ -330,57 +348,363 @@
 
 .all-dots {
     position: absolute;
-    // position: relative;
+    position: relative;
     width: 5px;
     height: 5px;
     border-radius: 50%;
     z-index: 5000;
-    // float: left;
+    float: left;
+    background-color: rgba(0,0,0,0.5);
+    &:hover {
+        background-color: black;
+    }
 }
 
 
-// @for $i from 1 to 370 {
+#target {
+    // width: 1251px;
+    width:925px;
+}
+
+// @for $i from 0 to 1000 {
 //     #dot-#{$i} {
 //         left: ($i * 5) + px;
-//         background-color: red;
+//         top: 0px;
+//         background-color: gray;
 //     }
-// }
 
-// @for $i from 370 to 1099 {
-//     #dot-#{$i} {
-//         left: (($i - 370) * 5) + px;
-//         top: 5px;
-//         background-color: blue;
+//     @if ($i > 370) {
+//         $j: $i - 370;
+
+//         #dot-#{$i} {
+//             left: ($j * 5) + px;
+//             top: 5px;
+//             background-color: gray;
+//         }
 //     }
-// }
 
-// @for $i from 2000 to 2370 {
-//     #dot-#{$i} {
-//         left: (($i - 2000) * 5) + px;
-//         top: 10px;
-//         background-color: yellow;
+//     @if ($i > 740) {
+//         $j: $i - 740;
+
+//         #dot-#{$i} {
+//             left: ($j * 5) + px;
+//             top: 10px;
+//             background-color: gray;
+//         }
 //     }
-// }
 
-// @for $x from 0 to 5001 {
-    @for $i from 0 to 5000 {
-        #dot-#{$i} {
-            left: ($i * 5) + px;
-            // top: $x + px;
-            top: 10px;
-            background-color: blue;
-        }
-    // $x: $i+$x;
-    }
-// }
+//     @if ($i > 1110) {
+//         $j: $i - 1110;
 
-
-
-// for (var x; x <= 7400; x++) {
-//     for (var i; i <= 5000; i++) {
-//         $('#target').append('<div class="all-dots" id="dot-' + i + '"></div>')
+//         #dot-#{$i} {
+//             left: ($j * 5) + px;
+//             top: 15px;
+//             background-color: gray;
+//         }
 //     }
-//         // var nick = x + i;
-//         // $('#target').append('<div class="all-dots" id="dot-' + nick + '"></div>')
-//         var x = i+x;
+
+//     @if ($i > 1480) {
+//         $j: $i - 1480;
+
+//         #dot-#{$i} {
+//             left: ($j * 5) + px;
+//             top: 20px;
+//             background-color: gray;
+//         }
+//     }
+
+//     @if ($i > 1850) {
+//         $j: $i - 1850;
+
+//         #dot-#{$i} {
+//             left: ($j * 5) + px;
+//             top: 25px;
+//             background-color: gray;
+//         }
+//     }
+
+//     @if ($i > 2220) {
+//         $j: $i - 2220;
+
+//         #dot-#{$i} {
+//             left: ($j * 5) + px;
+//             top: 30px;
+//             background-color: gray;
+//         }
+//     }
+
+//     @if ($i > 2590) {
+//         $j: $i - 2590;
+
+//         #dot-#{$i} {
+//             left: ($j * 5) + px;
+//             top: 35px;
+//             background-color: gray;
+//         }
+//     }
+
+//     @if ($i > 2960) {
+//         $j: $i - 2960;
+
+//         #dot-#{$i} {
+//             left: ($j * 5) + px;
+//             top: 40px;
+//             background-color: gray;
+//         }
+//     }
+
+//     @if ($i > 3330) {
+//         $j: $i - 3330;
+
+//         #dot-#{$i} {
+//             left: ($j * 5) + px;
+//             top: 45px;
+//             background-color: gray;
+//         }
+//     }
+
+
+//     @if ($i > 3700) {
+//         $j: $i - 3700;
+
+//         #dot-#{$i} {
+//             left: ($j * 5) + px;
+//             top: 50px;
+//             background-color: gray;
+//         }
+//     }
+
+
+//     @if ($i > 4070) {
+//         $j: $i - 4070;
+
+//         #dot-#{$i} {
+//             left: ($j * 5) + px;
+//             top: 55px;
+//             background-color: gray;
+//         }
+//     }
+
+//     @if ($i > 4440) {
+//         $j: $i - 4440;
+
+//         #dot-#{$i} {
+//             left: ($j * 5) + px;
+//             top: 60px;
+//             background-color: gray;
+//         }
+//     }
+
+//     @if ($i > 4810) {
+//         $j: $i - 4810;
+
+//         #dot-#{$i} {
+//             left: ($j * 5) + px;
+//             top: 65px;
+//             background-color: gray;
+//         }
+//     }
+
+//     @if ($i > 5180) {
+//         $j: $i - 5180;
+
+//         #dot-#{$i} {
+//             left: ($j * 5) + px;
+//             top: 70px;
+//             background-color: gray;
+//         }
+//     }
+
+//     @if ($i > 5550) {
+//         $j: $i - 5550;
+
+//         #dot-#{$i} {
+//             left: ($j * 5) + px;
+//             top: 75px;
+//             background-color: gray;
+//         }
+//     }
+
+//     @if ($i > 5920) {
+//         $j: $i - 5920;
+
+//         #dot-#{$i} {
+//             left: ($j * 5) + px;
+//             top: 80px;
+//             background-color: gray;
+//         }
+//     }
+
+//     @if ($i > 6290) {
+//         $j: $i - 6290;
+
+//         #dot-#{$i} {
+//             left: ($j * 5) + px;
+//             top: 85px;
+//             background-color: gray;
+//         }
+//     }
+
+//     @if ($i > 6660) {
+//         $j: $i - 6660;
+
+//         #dot-#{$i} {
+//             left: ($j * 5) + px;
+//             top: 90px;
+//             background-color: gray;
+//         }
+//     }
+
+//     @if ($i > 7030) {
+//         $j: $i - 7030;
+
+//         #dot-#{$i} {
+//             left: ($j * 5) + px;
+//             top: 95px;
+//             background-color: gray;
+//         }
+//     }
+
+//     @if ($i > 7400) {
+//         $j: $i - 7400;
+
+//         #dot-#{$i} {
+//             left: ($j * 5) + px;
+//             top: 100px;
+//             background-color: gray;
+//         }
+//     }
+
+//     @if ($i > 7770) {
+//         $j: $i - 7770;
+
+//         #dot-#{$i} {
+//             left: ($j * 5) + px;
+//             top: 105px;
+//             background-color: gray;
+//         }
+//     }
+
+//     @if ($i > 8140) {
+//         $j: $i - 8140;
+
+//         #dot-#{$i} {
+//             left: ($j * 5) + px;
+//             top: 110px;
+//             background-color: gray;
+//         }
+//     }
+
+//     @if ($i > 8510) {
+//         $j: $i - 8510;
+
+//         #dot-#{$i} {
+//             left: ($j * 5) + px;
+//             top: 115px;
+//             background-color: gray;
+//         }
+//     }
+
+//     @if ($i > 8880) {
+//         $j: $i - 8880;
+
+//         #dot-#{$i} {
+//             left: ($j * 5) + px;
+//             top: 120px;
+//             background-color: gray;
+//         }
+//     }
+
+//     @if ($i > 9250) {
+//         $j: $i - 9250;
+
+//         #dot-#{$i} {
+//             left: ($j * 5) + px;
+//             top: 125px;
+//             background-color: gray;
+//         }
+//     }
+
+//     @if ($i > 9620) {
+//         $j: $i - 9620;
+
+//         #dot-#{$i} {
+//             left: ($j * 5) + px;
+//             top: 130px;
+//             background-color: gray;
+//         }
+//     }
+
+//     @if ($i > 9990) {
+//         $j: $i - 9990;
+
+//         #dot-#{$i} {
+//             left: ($j * 5) + px;
+//             top: 135px;
+//             background-color: gray;
+//         }
+//     }
+
+//     @if ($i > 10360) {
+//         $j: $i - 10360;
+
+//         #dot-#{$i} {
+//             left: ($j * 5) + px;
+//             top: 140px;
+//             background-color: gray;
+//         }
+//     }
+
+//     @if ($i > 10730) {
+//         $j: $i - 10730;
+
+//         #dot-#{$i} {
+//             left: ($j * 5) + px;
+//             top: 145px;
+//             background-color: gray;
+//         }
+//     }
+
+//     @if ($i > 11100) {
+//         $j: $i - 11100;
+
+//         #dot-#{$i} {
+//             left: ($j * 5) + px;
+//             top: 150px;
+//             background-color: gray;
+//         }
+//     }
+
+//     @if ($i > 11470) {
+//         $j: $i - 11470;
+
+//         #dot-#{$i} {
+//             left: ($j * 5) + px;
+//             top: 155px;
+//             background-color: gray;
+//         }
+//     }
+
+//     @if ($i > 11840) {
+//         $j: $i - 11840;
+
+//         #dot-#{$i} {
+//             left: ($j * 5) + px;
+//             top: 160px;
+//             background-color: gray;
+//         }
+//     }
+
+//     @if ($i > 12210) {
+//         $j: $i - 12210;
+
+//         #dot-#{$i} {
+//             left: ($j * 5) + px;
+//             top: 165px;
+//             background-color: gray;
+//         }
+//     }
+
+
+
 // }
