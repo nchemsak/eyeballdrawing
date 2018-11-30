@@ -112,8 +112,10 @@
         border-radius: 50%;
         -webkit-box-shadow: inset 0px 0px 99px 13px rgba(111, 67, 70, 0.70);
         box-shadow: inset 0px 0px 99px 13px rgba(72, 43, 45, 0.75);
-        top: 316px;
-        left: 803px;
+        // top: 316px;
+        top: 73px;
+        // left: 803px;
+        left: 176px;
         background: transparent radial-gradient(ellipse closest-corner at 53% 46%, rgba(130, 63, 37, .8) 25%, rgba(255, 255, 255, 0.7) 68%, rgba(255, 255, 255, .9) 90%);
     }
 
@@ -146,6 +148,7 @@
 
     .eyewhite {
         position: absolute;
+        overflow: hidden;
         width: 910px;
         height: 497px;
         border-radius: 121% 3% 92% 38%/102% 8% 121% 24%;
@@ -299,3 +302,85 @@
 
 
 }
+
+
+
+
+
+// loop experiment
+// // colors begin
+// $colors: rgb(255,255,255), // white
+//           rgb(255,0,0),     // red
+//           rgb(135,206,250), // sky blue
+//           rgb(255,255,0);   // yellow
+
+// @each $color in $colors {
+//     .for-#{$color} {
+//         background-color: rgba($color, 0.6);
+
+//         &:hover {
+//             background-color: rgba($color, 1);
+//             cursor: pointer;
+//         }
+//     }
+
+// }
+// // colors end
+
+
+.all-dots {
+    position: absolute;
+    // position: relative;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    z-index: 5000;
+    // float: left;
+}
+
+
+// @for $i from 1 to 370 {
+//     #dot-#{$i} {
+//         left: ($i * 5) + px;
+//         background-color: red;
+//     }
+// }
+
+// @for $i from 370 to 1099 {
+//     #dot-#{$i} {
+//         left: (($i - 370) * 5) + px;
+//         top: 5px;
+//         background-color: blue;
+//     }
+// }
+
+// @for $i from 2000 to 2370 {
+//     #dot-#{$i} {
+//         left: (($i - 2000) * 5) + px;
+//         top: 10px;
+//         background-color: yellow;
+//     }
+// }
+
+// @for $x from 0 to 5001 {
+    @for $i from 0 to 5000 {
+        #dot-#{$i} {
+            left: ($i * 5) + px;
+            // top: $x + px;
+            top: 10px;
+            background-color: blue;
+        }
+    // $x: $i+$x;
+    }
+// }
+
+
+
+// for (var x; x <= 7400; x++) {
+//     for (var i; i <= 5000; i++) {
+//         $('#target').append('<div class="all-dots" id="dot-' + i + '"></div>')
+//     }
+//         // var nick = x + i;
+//         // $('#target').append('<div class="all-dots" id="dot-' + nick + '"></div>')
+//         var x = i+x;
+// }
