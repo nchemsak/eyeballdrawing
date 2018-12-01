@@ -28,9 +28,29 @@
     // height: 600px;
     position: relative;
 
+    .face-img {
+        position: absolute;
+        z-index: 10;
+
+    }
+
+        .eye-internal-image {
+            background-image: url("/images/yeah.png");
+            height: 500px;
+            // width: 1850px;
+            width: 925px;
+            background-repeat: no-repeat;
+            background-size: auto;
+            background-position: 56% 22%;
+            position: absolute;
+            z-index: 1;
+
+            top: 100px;
+            left: -44px;
+        }
     .eye-image {
         background-color: #000;
-        background-image: url("/images/eyeball4.jpg");
+        // background-image: url("/images/eyeball420.png");
         // height: 1000px;
         height: 500px;
         // width: 1850px;
@@ -38,6 +58,21 @@
         background-repeat: no-repeat;
         background-size: auto;
         position: relative;
+
+        // .eye-internal-image {
+        //     background-image: url("/images/yeah.png");
+        //     height: 500px;
+        //     // width: 1850px;
+        //     width: 925px;
+        //     background-repeat: no-repeat;
+        //     background-size: auto;
+        //     background-position: 56% 22%;
+        //     position: absolute;
+        //     z-index: 1;
+
+        //     top: 100px;
+        //     left: -44px;
+        // }
 
         .drop1 {
             width: 4px;
@@ -177,6 +212,23 @@
         background: transparent -webkit-radial-gradient(119% 16%, ellipse cover, rgba(132, 103, 99, 0.8) 25%, rgba(255, 255, 255, 0.7) 72%, rgba(255, 255, 255, 0.6) 90%);
         background: transparent radial-gradient(ellipse farthest-corner at 119% 16%, rgba(132, 103, 99, 0.8) 25%, rgba(255, 255, 255, 0.7) 72%, rgba(255, 255, 255, 0.6) 90%);
     }
+
+
+    .invisible-eyelid {
+        position: absolute;
+        overflow: hidden;
+        width: 455px;
+        height: 248px;
+        border-radius: 139% 3% 92% 38%/102% 8% 121% 24%;
+        transform: rotate(-201deg);
+        left: 100px;
+        top: 1px;
+        background: red;
+        /* background: transparent -webkit-radial-gradient(119% 16%,ellipse cover,rgba(132,103,99,.8) 25%,rgba(255,255,255,.7) 72%,rgba(255,255,255,.6) 90%); */
+        /* background: transparent radial-gradient(ellipse farthest-corner at 91% 16%,rgba(132,103,99,.8) 25%,rgba(255,255,255,.7) 72%,rgba(255,255,255,.6) 90%); */
+
+    }
+
 
     .skin1 {
         background-color: rgba(212, 172, 160, 0.5);
@@ -351,14 +403,22 @@
     position: relative;
     width: 5px;
     height: 5px;
-    // border-radius: 50%;
+    border-radius: 50%;
     z-index: 5000;
     float: left;
     background-color: rgba(0, 0, 0, 0.5);
     opacity: 0.8;
+    -webkit-box-shadow: inset 0px 0px 300px 10px rgba(198, 147, 128, 1);
+    -moz-box-shadow: inset 0px 0px 300px 10px rgba(198, 147, 128, 1);
+    box-shadow: inset 0px 0px 300px 10px rgba(198, 147, 128, 1);
 
     &:hover {
         background-color: black;
+        -webkit-box-shadow: inset 0px 0px 300px 10px rgb(170, 113, 94);
+        -moz-box-shadow: inset 0px 0px 300px 10px rgb(170, 113, 94);
+        box-shadow: inset 0px 0px 300px 10px rgb(170, 113, 94);
+
+
     }
 }
 
@@ -371,7 +431,7 @@
 #dot- {
 
     &1 {
-        background-color: rgb(134, 80, 68);
+        background-color: rgb(128, 84, 75);
     }
 
     &2 {
@@ -383,59 +443,59 @@
     }
 
     &4 {
-        background-color: rgb(134, 80, 68);
+        background-color: rgb(180, 133, 118);
     }
 
     &5 {
-        background-color: rgb(134, 80, 68);
+        background-color: rgb(180, 133, 118);
     }
 
     &6 {
-        background-color: rgb(134, 80, 68);
+        background-color: rgb(190, 143, 128);
     }
 
     &7 {
-        background-color: rgb(134, 80, 68);
+        background-color: rgb(190, 143, 128);
     }
 
     &8 {
-        background-color: rgb(134, 80, 68);
+        background-color: rgb(211, 175, 162);
     }
 
     &9 {
-        background-color: rgb(134, 80, 68);
+        background-color: rgb(211, 175, 162);
     }
 
     &10 {
-        background-color: rgb(134, 80, 68);
+        background-color: rgb(216, 180, 169);
     }
 
     &11 {
-        background-color: rgb(134, 80, 68);
+        background-color: rgb(216, 180, 169);
     }
 
     &12 {
-        background-color: rgb(134, 80, 68);
+        background-color: rgb(216, 180, 169);
     }
 
     &13 {
-        background-color: rgb(134, 80, 68);
+        background-color: rgb(218, 190, 181);
     }
 
     &14 {
-        background-color: rgb(134, 80, 68);
+        background-color: rgb(218, 190, 181);
     }
 
     &15 {
-        background-color: rgb(134, 80, 68);
+        background-color: rgb(223, 185, 177);
     }
 
     &16 {
-        background-color: rgb(134, 80, 68);
+        background-color: rgb(223, 185, 177);
     }
 
     &17 {
-        background-color: rgb(134, 80, 68);
+        background-color: rgb(223, 185, 177);
     }
 
     &18 {
@@ -1110,14 +1170,14 @@
 
     &185 {
         background-color: rgb(134, 80, 68);
-                        background-color: purple;
+        background-color: purple;
     }
 
 
-// END OF FIRST ROW
+    // END OF FIRST ROW
 
 
-// // BEGINNING OF 2ND ROW
+    // // BEGINNING OF 2ND ROW
 
     &186 {
         background-color: rgb(134, 80, 68);
@@ -1174,7 +1234,7 @@
 
     &199 {
         background-color: rgb(134, 80, 68);
-        background-color: blue;
+
     }
 
 

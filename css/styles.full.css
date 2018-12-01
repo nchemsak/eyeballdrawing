@@ -744,9 +744,22 @@
     margin-left: 91.6666666667%; } }
 #eyewrapper {
   position: relative; }
+  #eyewrapper .face-img {
+    position: absolute;
+    z-index: 10; }
+  #eyewrapper .eye-internal-image {
+    background-image: url("/images/yeah.png");
+    height: 500px;
+    width: 925px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 56% 22%;
+    position: absolute;
+    z-index: 1;
+    top: 100px;
+    left: -44px; }
   #eyewrapper .eye-image {
     background-color: #000;
-    background-image: url("/images/eyeball4.jpg");
     height: 500px;
     width: 925px;
     background-repeat: no-repeat;
@@ -838,6 +851,18 @@
     background: white;
     background: transparent -webkit-radial-gradient(119% 16%, ellipse cover, rgba(132, 103, 99, 0.8) 25%, rgba(255, 255, 255, 0.7) 72%, rgba(255, 255, 255, 0.6) 90%);
     background: transparent radial-gradient(ellipse farthest-corner at 119% 16%, rgba(132, 103, 99, 0.8) 25%, rgba(255, 255, 255, 0.7) 72%, rgba(255, 255, 255, 0.6) 90%); }
+  #eyewrapper .invisible-eyelid {
+    position: absolute;
+    overflow: hidden;
+    width: 455px;
+    height: 248px;
+    border-radius: 139% 3% 92% 38%/102% 8% 121% 24%;
+    transform: rotate(-201deg);
+    left: 100px;
+    top: 1px;
+    background: red;
+    /* background: transparent -webkit-radial-gradient(119% 16%,ellipse cover,rgba(132,103,99,.8) 25%,rgba(255,255,255,.7) 72%,rgba(255,255,255,.6) 90%); */
+    /* background: transparent radial-gradient(ellipse farthest-corner at 91% 16%,rgba(132,103,99,.8) 25%,rgba(255,255,255,.7) 72%,rgba(255,255,255,.6) 90%); */ }
   #eyewrapper .skin1 {
     background-color: rgba(212, 172, 160, 0.5);
     width: 2000px;
@@ -958,50 +983,57 @@
   position: relative;
   width: 5px;
   height: 5px;
+  border-radius: 50%;
   z-index: 5000;
   float: left;
   background-color: rgba(0, 0, 0, 0.5);
-  opacity: 0.8; }
+  opacity: 0.8;
+  -webkit-box-shadow: inset 0px 0px 300px 10px #c69380;
+  -moz-box-shadow: inset 0px 0px 300px 10px #c69380;
+  box-shadow: inset 0px 0px 300px 10px #c69380; }
   .all-dots:hover {
-    background-color: black; }
+    background-color: black;
+    -webkit-box-shadow: inset 0px 0px 300px 10px #aa715e;
+    -moz-box-shadow: inset 0px 0px 300px 10px #aa715e;
+    box-shadow: inset 0px 0px 300px 10px #aa715e; }
 
 #target {
   width: 925px; }
 
 #dot-1 {
-  background-color: #865044; }
+  background-color: #80544b; }
 #dot-2 {
   background-color: #865044; }
 #dot-3 {
   background-color: #865044; }
 #dot-4 {
-  background-color: #865044; }
+  background-color: #b48576; }
 #dot-5 {
-  background-color: #865044; }
+  background-color: #b48576; }
 #dot-6 {
-  background-color: #865044; }
+  background-color: #be8f80; }
 #dot-7 {
-  background-color: #865044; }
+  background-color: #be8f80; }
 #dot-8 {
-  background-color: #865044; }
+  background-color: #d3afa2; }
 #dot-9 {
-  background-color: #865044; }
+  background-color: #d3afa2; }
 #dot-10 {
-  background-color: #865044; }
+  background-color: #d8b4a9; }
 #dot-11 {
-  background-color: #865044; }
+  background-color: #d8b4a9; }
 #dot-12 {
-  background-color: #865044; }
+  background-color: #d8b4a9; }
 #dot-13 {
-  background-color: #865044; }
+  background-color: #dabeb5; }
 #dot-14 {
-  background-color: #865044; }
+  background-color: #dabeb5; }
 #dot-15 {
-  background-color: #865044; }
+  background-color: #dfb9b1; }
 #dot-16 {
-  background-color: #865044; }
+  background-color: #dfb9b1; }
 #dot-17 {
-  background-color: #865044; }
+  background-color: #dfb9b1; }
 #dot-18 {
   background-color: #865044; }
 #dot-19 {
@@ -1366,7 +1398,6 @@
 #dot-198 {
   background-color: #865044; }
 #dot-199 {
-  background-color: #865044;
-  background-color: blue; }
+  background-color: #865044; }
 
 /*# sourceMappingURL=styles.full.css.map */

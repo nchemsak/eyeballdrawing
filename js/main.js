@@ -15,16 +15,16 @@
 
 
 
-$(document).ready(function() {
-    for (var i = 1; i <= 1; i++) {
-        // $('#target').append('<div class="dot-rows" id="dot-row-' + i + '">');
-        for (var j = 1; j <= 18500; j++) {
-            $('#target').append('<div class="all-dots" id="dot-' + j + '"></div>')
+// $(document).ready(function() {
+//     for (var i = 1; i <= 1; i++) {
+//         // $('#target').append('<div class="dot-rows" id="dot-row-' + i + '">');
+//         for (var j = 1; j <= 18500; j++) {
+//             $('#target').append('<div class="all-dots" id="dot-' + j + '"></div>')
 
-            // if (j % 370 === 0) {
-            //     $('#target').append('<br />')
-            // }
-        }
-        // $('#target').append('</ div>' );
-    }
-});
+//             // if (j % 370 === 0) {
+//             //     $('#target').append('<br />')
+//             // }
+//         }
+//         // $('#target').append('</ div>' );
+//     }
+// });
