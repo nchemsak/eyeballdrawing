@@ -30,9 +30,55 @@
 
     .face-img {
         position: absolute;
-        z-index: 10;
+        z-index: 20;
+        left: 0px;
 
     }
+
+    .eye-internal-image {
+        // background-image: url("/images/yeah.png");
+        height: 500px;
+        // width: 1850px;
+        width: 925px;
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: 56% 22%;
+        position: absolute;
+        z-index: 20;
+
+        top: 100px;
+        left: -44px;
+
+
+        height: 250px;
+        width: 463px;
+        /* background-repeat: no-repeat; */
+        /* background-size: auto; */
+        /* background-position: 56% 22%; */
+        position: absolute;
+        z-index: 17;
+        top: 144px;
+        left: 213px;
+
+        top: 166px;
+        left: 216px;
+        height: initial;
+        width: initial;
+
+
+
+    }
+
+    .eye-image {
+        background-color: #000;
+        // background-image: url("/images/eyeball420.png");
+        // height: 1000px;
+        height: 500px;
+        // width: 1850px;
+        width: 925px;
+        background-repeat: no-repeat;
+        background-size: auto;
+        position: relative;
 
         .eye-internal-image {
             background-image: url("/images/yeah.png");
@@ -48,31 +94,6 @@
             top: 100px;
             left: -44px;
         }
-    .eye-image {
-        background-color: #000;
-        // background-image: url("/images/eyeball420.png");
-        // height: 1000px;
-        height: 500px;
-        // width: 1850px;
-        width: 925px;
-        background-repeat: no-repeat;
-        background-size: auto;
-        position: relative;
-
-        // .eye-internal-image {
-        //     background-image: url("/images/yeah.png");
-        //     height: 500px;
-        //     // width: 1850px;
-        //     width: 925px;
-        //     background-repeat: no-repeat;
-        //     background-size: auto;
-        //     background-position: 56% 22%;
-        //     position: absolute;
-        //     z-index: 1;
-
-        //     top: 100px;
-        //     left: -44px;
-        // }
 
         .drop1 {
             width: 4px;
@@ -128,7 +149,16 @@
         top: 213px;
         // left: 963px;
         left: 482px;
+        z-index: 20;
+        transition: 3.5s;
 
+        &:hover {
+            width: 100px;
+            height: 92px;
+            left: 468px;
+            box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, 1.0);
+
+        }
     }
 
     .pupil-reflection {
@@ -144,6 +174,17 @@
         top: 191px;
         // left: 990px;
         left: 495px;
+        z-index: 21;
+        transition: 3.5s;
+
+        &:hover {    
+            // width: 100px;
+            // height: 92px;
+            // left: 468px;
+            // box-shadow: inset 0px 0px 0px 0px rgba(255, 255, 255, 0.1);
+            background-color: rgba(255, 255, 255, 0);
+        }
+
     }
 
     .iris {
@@ -166,22 +207,34 @@
         // left: 176px;
         left: 88px;
         background: transparent radial-gradient(ellipse closest-corner at 48% 53%, rgba(130, 63, 37, .8) 25%, rgba(255, 255, 255, 0.7) 68%, rgba(255, 255, 255, .9) 90%);
+        z-index: 11;
     }
 
-    // .inner-iris {
-    //     width: 433px;
-    //     height: 433px;
-    //     position: absolute;
-    //     margin: auto;
-    //     max-width: 100%;
-    //     max-height: 100%;
-    //     overflow: auto;
-    //     border-radius: 50%;
-    //     -webkit-box-shadow: inset 0px 0px 99px 13px rgba(170, 112, 75, 0.75);
-    //     box-shadow: inset 0px 0px 99px 13px rgba(170, 112, 75, 0.75);
-    //     top: 309px;
-    //     left: 804px;
-    // }
+    .inner-iris {
+        width: 433px;
+        width: 220px;
+        height: 433px;
+        height: 216px;
+        position: absolute;
+        margin: auto;
+        max-width: 100%;
+        max-height: 100%;
+        overflow: auto;
+        border-radius: 50%;
+        -webkit-box-shadow: inset 0px 0px 99px 13px rgba(170, 112, 75, 0.75);
+        box-shadow: inset 0px 0px 99px 13px rgba(170, 112, 75, 0.75);
+        top: 309px;
+        top: 154px;
+        left: 804px;
+        left: 402px;
+        z-index: 19;
+        transition: 1s;
+
+        &:hover {
+            box-shadow: inset 0px 0px 99px 13px rgba(170, 112, 75, 0.15);
+            // height: ;
+        }
+    }
 
 
     .eyeball {
@@ -196,6 +249,8 @@
     }
 
     .eyewhite {
+        z-index:18;
+        opacity:0.4;
         position: absolute;
         overflow: hidden;
         // width: 910px;
@@ -211,6 +266,9 @@
         background: white;
         background: transparent -webkit-radial-gradient(119% 16%, ellipse cover, rgba(132, 103, 99, 0.8) 25%, rgba(255, 255, 255, 0.7) 72%, rgba(255, 255, 255, 0.6) 90%);
         background: transparent radial-gradient(ellipse farthest-corner at 119% 16%, rgba(132, 103, 99, 0.8) 25%, rgba(255, 255, 255, 0.7) 72%, rgba(255, 255, 255, 0.6) 90%);
+        &:hover {
+            opacity:0.8;
+        }
     }
 
 
@@ -404,20 +462,20 @@
     width: 5px;
     height: 5px;
     border-radius: 50%;
-    z-index: 5000;
+    z-index: 14;
     float: left;
     background-color: rgba(0, 0, 0, 0.5);
     opacity: 0.8;
-    -webkit-box-shadow: inset 0px 0px 300px 10px rgba(198, 147, 128, 1);
-    -moz-box-shadow: inset 0px 0px 300px 10px rgba(198, 147, 128, 1);
-    box-shadow: inset 0px 0px 300px 10px rgba(198, 147, 128, 1);
+    -webkit-box-shadow: inset 0px 0px 300px 10px rgba(198, 147, 128, 0.5);
+    -moz-box-shadow: inset 0px 0px 300px 10px rgba(198, 147, 128, 0.5);
+    box-shadow: inset 0px 0px 300px 10px rgba(198, 147, 128, 0.5);
+    transition: 0.5s;
 
     &:hover {
         background-color: black;
         -webkit-box-shadow: inset 0px 0px 300px 10px rgb(170, 113, 94);
         -moz-box-shadow: inset 0px 0px 300px 10px rgb(170, 113, 94);
         box-shadow: inset 0px 0px 300px 10px rgb(170, 113, 94);
-
 
     }
 }
